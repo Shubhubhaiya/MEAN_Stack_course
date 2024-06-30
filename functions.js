@@ -41,10 +41,10 @@ display("Hi I am shubhdeep verma");
 
 // Arrow functions 
 
-const sum = (num1, num2) => {
+const sum = (num1, num2) => {  // num1 and num2 are the params
     console.log(num1 + num2)
 };
-sum(40, 50);
+sum(40, 50); // 40 and 50 are the args
 
 const display1 = (msg)=> console.log(msg);
 display1("Hi I am in display 1");
